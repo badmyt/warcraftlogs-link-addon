@@ -1,0 +1,7 @@
+## Interface: 120000, 120001, 120005
+## Title: Warcraft Logs Link
+## Notes: Adds WarcraftLogs link to context menus
+## Author: Badmy
+## Version: 0.1
+
+WarcraftLogsLink.lua
