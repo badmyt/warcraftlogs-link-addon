@@ -99,6 +99,10 @@ StaticPopupDialogs[POPUP_NAME] = {
     whileDead = true,
     hideOnEscape = true,
 
+    EditBoxOnEscapePressed = function()
+        StaticPopup_Hide(POPUP_NAME)
+    end,
+
     OnShow = function(self)
         local editBox = GetPopupEditBox(self)
 
