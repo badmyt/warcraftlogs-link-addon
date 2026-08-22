@@ -46,7 +46,7 @@ local function BuildWarcraftLogsUrl(fullName, fallbackUnit)
     local region = REGION_BY_ID[GetCurrentRegion()] or "us"
 
     return string.format(
-        "https://www.warcraftlogs.com/character/%s/%s/%s?zone=47",
+        "https://www.warcraftlogs.com/character/%s/%s/%s?zone=55",
         region,
         EncodeUrlPart(realm),
         EncodeUrlPart(name)
